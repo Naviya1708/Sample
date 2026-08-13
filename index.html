@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Exhibitor Registration</title>
+</head>
+<body>
+<center>
+<h1>Exhibitor Registration</h1>
+</center>
+<form action="form.php" method="POST">
+<table cellpadding="10">
+<tr>
+<td>Prefix</td>
+<td><input type="text" name="prefix"></td>
+<td><br></td>
+</tr>
+<tr>
+<td>Name</td>
+<td>
+<input type="text" placeholder="First Name" name="firstname">
+<input type="text" placeholder="Last Name" name="lastname">    
+</td>
+</tr>
+<tr>
+<td>Preferred Pronouns</td>
+<td><input type="text" name="pronouns"></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type="email" placeholder="sample@example.com" name="email"></td>
+</tr>
+<tr>
+<td>Work Phone</td>
+<td><input type="number" name="workphone"></td>
+</tr>
+<tr>
+<td>Cell Phone</td>
+<td><input type="number" name="cellphone"></td>
+</tr>
+<tr>
+<td>Job Title</td>
+<td><input type="text" name="jobtitle"></td>
+</tr>
+<tr>
+<td>Company</td>
+<td><input type="text" name="company"></td>
+</tr>
+<tr>
+<td>Full Business Address</td>
+<td><input type="text" name="address"></td>
+</tr>
+<tr>
+<td>Company Website</td>
+<td><input type="url" name="companywebsite"></td>
+</tr>
+<tr>
+<td>Company Description</td>
+<td><input type="text" name="description"></td>
+</tr>
+<tr>
+<td>Product/Services to exhibit</td>
+<td><input type="text" name="products"></td>
+</tr>
+<tr>
+<td>What type of booth do you like?</td>
+<td>
+<input type="radio" name="booth"> In-person booth only <br>
+<input type="radio" name="booth"> Virtual booth only <br>
+<input type="radio" name="booth"> Virtual & In-person booth
+</td>
+</tr>
+<tr>
+<td>List your staff (name, email, phone)</td>
+<td><input type="text" name="staff"></td>
+</tr>
+<tr>
+<td>Competitors you don't want be near</td>
+<td><input type="text" name="competitors"></td>
+</tr>
+<tr>
+<td colspan="4" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
